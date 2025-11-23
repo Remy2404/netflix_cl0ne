@@ -14,13 +14,13 @@ async function loadSection(id, file) {
 // Load all sections
 async function loadSections() {
   await Promise.all([
-    loadSection('nav', '/src/nav.html'),
-    loadSection('hero', '/src/hero.html'),
-    loadSection('trending', '/src/trending.html'),
-    loadSection('features', '/src/features.html'),
-    loadSection('faq', '/src/faq.html'),
-    loadSection('pricing', '/src/pricing.html'),
-    loadSection('footer', '/src/footer.html')
+    loadSection('nav', '/sections/nav.html'),
+    loadSection('hero', '/sections/hero.html'),
+    loadSection('trending', '/sections/trending.html'),
+    loadSection('features', '/sections/features.html'),
+    loadSection('faq', '/sections/faq.html'),
+    loadSection('pricing', '/sections/pricing.html'),
+    loadSection('footer', '/sections/footer.html')
   ]);
 }
 
