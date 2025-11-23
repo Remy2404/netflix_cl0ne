@@ -4,7 +4,7 @@
 - **Project:** Netflex Clone Landing Page
 - **Description:** A responsive landing page clone of Netflix built using HTML and Tailwind CSS. This project showcases various sections including a hero section, trending movies, pricing plans, FAQs, and testimonials.
 
-published on: [Netflex Clone Live Demo](https://netflex-landing-page-clone.netlify.app/)
+published on: [Netflex Clone Live Demo](https://netflex-clone-mocha.vercel.app/)
 
 ## screenshots
 ![Netflex Clone landing page](./public/screenshort_landing_page.png)
