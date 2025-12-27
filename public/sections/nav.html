@@ -1,0 +1,38 @@
+<!-- Navigation -->
+<nav id="navbar"
+  class="fixed w-full z-50 transition-colors duration-300 px-4 md:px-12 py-4 flex justify-between items-center bg-linear-to-b from-black/80 to-transparent">
+  <div class="flex items-center">
+    <a href="#" class="text-[#E50914] text-3xl md:text-5xl font-bold uppercase tracking-tighter">Netflix</a>
+  </div>
+
+  <div class="hidden md:flex items-center space-x-6">
+    <select class="bg-black/40 border border-gray-500 text-white px-3 py-1 rounded text-sm">
+      <option>English</option>
+    </select>
+    <a href="#"
+      class="bg-[#E50914] hover:bg-[#c11119] text-white px-4 py-1.5 rounded font-medium text-sm transition">Sign
+      In</a>
+  </div>
+
+  <!-- Mobile Menu Button -->
+  <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none">
+    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+    </svg>
+  </button>
+</nav>
+
+<!-- Mobile Menu Overlay -->
+<div id="mobile-menu"
+  class="fixed inset-0 bg-black z-40 transform translate-x-full transition-transform duration-300 md:hidden flex flex-col items-center justify-center space-y-8">
+  <button id="close-menu-btn" class="absolute top-6 right-6 text-white">
+    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+    </svg>
+  </button>
+  <a href="#" class="text-2xl font-medium hover:text-gray-300">Home</a>
+  <a href="#" class="text-2xl font-medium hover:text-gray-300">TV Shows</a>
+  <a href="#" class="text-2xl font-medium hover:text-gray-300">Movies</a>
+  <a href="#" class="text-2xl font-medium hover:text-gray-300">New & Popular</a>
+  <a href="#" class="bg-[#E50914] px-8 py-3 rounded font-bold text-xl">Sign In</a>
+</div>
